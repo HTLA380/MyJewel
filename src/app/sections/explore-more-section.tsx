@@ -6,7 +6,7 @@ const ExploreMoreSection = () => {
   return (
     <div className="relative flex h-[26.1875rem] w-full justify-center">
       <section className="w-full max-w-screen-xl pb-[6.25rem] pr-[36.25rem] pt-[4.375rem]">
-        <div className="flex flex-col gap-[1.75rem]">
+        <div className="flex flex-col gap-7">
           <div className="flex flex-col gap-[0.9375rem]">
             <h3 className="min-h-[2.6875rem] font-playfair text-[2rem] font-normal leading-100% tracking-1% text-foreground">
               Explore More

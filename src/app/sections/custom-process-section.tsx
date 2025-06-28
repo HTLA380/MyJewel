@@ -5,7 +5,7 @@ const CustomProcessSection = () => {
   return (
     <div className="flex w-full justify-center">
       <div className="w-full max-w-screen-xl pb-[6.25rem] pt-[1.3125rem]">
-        <p className="min-h-[1.5rem] font-dm-sans text-sm leading-160% text-foreground-secondary">
+        <p className="min-h-6 font-dm-sans text-sm leading-160% text-foreground-secondary">
           <span className="text-foreground-muted">Home / </span> Custom Jewelry
         </p>
 

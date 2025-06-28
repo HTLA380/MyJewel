@@ -40,7 +40,7 @@ const HeroSection = () => {
         alt="ring"
         src={"/images/hero-diamond-2.png"}
         draggable={false}
-        className="pointer-events-none absolute -right-[7rem] bottom-[17.5rem] rotate-[93deg] -scale-y-100"
+        className="pointer-events-none absolute -right-28 bottom-[17.5rem] rotate-[93deg] -scale-y-100"
       />
 
       <div className="flex size-full items-center justify-center">

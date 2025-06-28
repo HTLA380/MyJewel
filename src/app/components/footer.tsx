@@ -122,19 +122,19 @@ export default function Footer() {
             </div>
           ))}
 
-          <div className="flex h-[13.125rem] w-[28.375rem] flex-col pl-[0.625rem]">
+          <div className="flex h-[13.125rem] w-[28.375rem] flex-col pl-2.5">
             <h5 className="min-h-[1.3125rem] font-dm-sans text-base font-semibold leading-100% tracking-1% text-foreground-secondary">
               Let&apos;s Keep In Touch
             </h5>
 
-            <form onSubmit={handleSubmit(onSubmit)} className="mt-[0.625rem] flex w-full max-w-[26.25rem] flex-col">
+            <form onSubmit={handleSubmit(onSubmit)} className="mt-2.5 flex w-full max-w-[26.25rem] flex-col">
               <div className="flex items-center">
                 <div className="relative flex-1">
                   <input
                     {...register("email")}
                     type="email"
                     className={cn(
-                      "h-[2.875rem] w-full border-r-0 px-[0.625rem] py-[0.75rem] font-dm-sans text-sm font-normal leading-160% tracking-3% text-foreground-secondary transition-colors placeholder:text-foreground-secondary/60",
+                      "h-[2.875rem] w-full border-r-0 px-2.5 py-3 font-dm-sans text-sm font-normal leading-160% tracking-3% text-foreground-secondary transition-colors placeholder:text-foreground-secondary/60",
                       errors.email
                         ? "border border-red-500 bg-red-50"
                         : isValid && register("email").name
@@ -151,8 +151,8 @@ export default function Footer() {
                   className={cn(
                     "flex size-[2.875rem] items-center justify-center transition-all",
                     isSubmitting || !isValid
-                      ? "cursor-not-allowed bg-button-primary/50"
-                      : "bg-button-primary text-button-primary-foreground",
+                      ? "cursor-not-allowed bg-button-primary/50 text-white"
+                      : "bg-button-primary text-white",
                   )}
                   aria-label="Subscribe to newsletter">
                   {isSubmitting ? <LuLoaderCircle size={18} className="animate-spin" /> : <VscSend size={18} />}
@@ -186,7 +186,7 @@ export default function Footer() {
               )}
             </form>
 
-            <div className="mt-[2.25rem] flex flex-col gap-[0.925rem]">
+            <div className="mt-9 flex flex-col gap-[0.925rem]">
               <h5 className="min-h-[1.3125rem] font-dm-sans text-base font-semibold leading-100% tracking-1% text-foreground-secondary">
                 Payment Methods
               </h5>

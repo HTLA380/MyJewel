@@ -65,7 +65,7 @@ const Navbar = () => {
             <Logo />
           </div>
 
-          <div className="flex shrink-0 items-center gap-[0.90625rem] pl-[6rem] pr-[4.6875rem]">
+          <div className="flex shrink-0 items-center gap-[0.90625rem] pl-24 pr-[4.6875rem]">
             <button className="flex items-center gap-2 px-5 py-0.5">
               <p className="font-dm-sans text-13px font-normal uppercase leading-180% tracking-8% text-foreground-secondary">
                 Jewelry
