@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --border: 0 0% 89%;
+    --border-secondary: 0 0% 77%;
+    --border-payment-card: 26 15% 91%;
+
+    --foreground: 0 0% 6% 1;
+    --foreground-accent: 0 0% 31%;
+    --foreground-primary: 220 56% 19%;
+    --foreground-primary-emphasis: 205 78% 23%;
+    --foreground-secondary: 0 0% 26%;
+    --foreground-muted: 0 0% 48%;
+
+    --background: 0 0% 100%;
+    --background-accent: 0 0% 99%;
+    --background-secondary: 0 0% 97%;
+    --background-muted: 0 0% 94%;
+
+    --carousel-dot: 0 0% 89%;
+    --carousel-dot-hover: 0 0% 70%;
+    --carousel-dot-active: 0 0% 48%;
+
+    --button-primary: 205 78% 23%;
+    --button-primary-foreground: 0 0% 100%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+.lucide {
+  width: 1em;
+  height: 1em;
+}
